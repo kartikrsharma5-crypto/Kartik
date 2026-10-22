@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Anton', 'Teko', sans-serif;
+    letter-spacing: 0.05em;
+  }
+  .font-display {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.03em;
+  }
+  .font-body {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom styling for arcade visuals */
+.text-shadow-hero {
+  text-shadow: 0 3px 0 #000, 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-gold {
+  text-shadow: 0 2px 0 #854d0e, 0 0 14px rgba(234, 179, 8, 0.6);
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: 1px rgba(0,0,0,0.8);
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: 2px rgba(0,0,0,0.9);
+}
+
+/* Touch friendly optimizations */
+* {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0c0a09;
+}

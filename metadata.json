@@ -1,0 +1,6 @@
+{
+  "name": "Gully Rush — Mumbai Run",
+  "description": "An exhilarating 3D mobile-first endless runner through vibrant Mumbai gullies, dodging auto-rickshaws, chai stalls, BEST buses, and puddles while collecting coins and unlocking desi runners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
